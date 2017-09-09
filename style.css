@@ -8,6 +8,7 @@ body{
 #store-details{
   color:red;
   text-align:center;
+  font-size:50px;
 }
 #store-name{
   font-size:144px;
@@ -72,5 +73,5 @@ body{
   }
 }
 #dog{
-  display:inline-block;
+  background-color:green;
 }
