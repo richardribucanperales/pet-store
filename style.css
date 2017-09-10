@@ -14,8 +14,19 @@ body{
   color:white;
   font-size:144px;
   text-align:center;
+  -webkit-animation:colorPulse 10s infinite alternate;
+}
+@-webkit-keyframes colorPulse {
+  0% {color:white;}
+  50%{color:pink;}
+  100%{color:red;}
 }
 #dog{
+  text-align:center;
   align-content:center;
+  color:white;
+}
+.dog-h2{
   color:pink;
+  font-size:100px;
 }
