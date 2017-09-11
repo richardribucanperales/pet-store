@@ -1,0 +1,31 @@
+*{
+  font-family:arial;
+}
+body{
+  background-color:black;
+}
+#music{
+  text-align:center;
+  color:white;
+}
+#store-name{
+  color:white;
+  font-size:100px;
+  text-align:center;
+  -webkit-animation:colorPulse 5s infinite alternate;
+}
+@-webkit-keyframes colorPulse {
+  0% {color:pink;}
+  50%{color:green;}
+  100%{color:purple;}
+}
+#divs{
+  text-align:center;
+  align-content:center;
+  color:white;
+}
+
+.p{
+  color: white;
+  font-size:40px;
+}
