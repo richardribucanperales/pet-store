@@ -17,9 +17,9 @@ body{
   -webkit-animation:colorPulse 10s infinite alternate;
 }
 @-webkit-keyframes colorPulse {
-  0% {color:white;}
-  50%{color:pink;}
-  100%{color:red;}
+  0% {color:pink;}
+  50%{color:green;}
+  100%{color:purple;}
 }
 #dog{
   text-align:center;
@@ -29,4 +29,8 @@ body{
 .dog-h2{
   color:pink;
   font-size:100px;
+}
+.dog-p{
+  color: pink;
+  font-size:80px;
 }
